@@ -24,10 +24,10 @@
 
 ```
 $ cd target
-$ java -jar Pocker-hand-1.0-SNAPSHOT.jar ./../src/main/resources/poker.txt   
+$ java -jar Poker-hand-1.0-SNAPSHOT.jar ./../src/main/resources/poker.txt   
 ```
 
-- For single time play from terminal, run:
+- For terminal input single round plays, run:
 
 ```
 $ cd target
