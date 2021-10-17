@@ -4,7 +4,8 @@
 
 #### Setup step:
 
-1. clone project and enter project folder;
+0. Environment: Java 8 / Maven
+1. Clone project and enter project folder;
 
 2. Instal
 
