@@ -36,7 +36,8 @@ $ java -jar Pocker-hand-1.0-SNAPSHOT.jar
 
 #### Simple structure illustration
 
-![image](https://user-images.githubusercontent.com/32782723/137617900-0142400f-0dc7-48cc-a4b3-9d7fa25e4cd2.png)
+![image](https://user-images.githubusercontent.com/32782723/137618011-2b77dab5-82c8-4147-a817-ccd91399da75.png)
+
 
 
 
