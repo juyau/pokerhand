@@ -23,14 +23,14 @@
 - for 500 hands testing file, run:
 
 ```
-$ cd target/
+$ cd target
 $ java -jar Pocker-hand-1.0-SNAPSHOT.jar ./../src/main/resources/poker.txt   
 ```
 
 - For single time play from terminal, run:
 
 ```
-$ cd target/
+$ cd target
 $ java -jar Pocker-hand-1.0-SNAPSHOT.jar 
 ```
 
