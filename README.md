@@ -31,7 +31,7 @@ $ java -jar Poker-hand-1.0-SNAPSHOT.jar ./../src/main/resources/poker.txt
 
 ```
 $ cd target
-$ java -jar Pocker-hand-1.0-SNAPSHOT.jar 
+$ java -jar Poker-hand-1.0-SNAPSHOT.jar 
 ```
 
 #### Simple structure illustration
