@@ -12,11 +12,11 @@ public class PokerGameController {
 
     /**
      * file play entrance
-     * @param bufferedReader
-     * @throws IOException
+     * @param bufferedReader text file with poker lines
+     * @throws IOException io exception
      */
     public static void playAll(BufferedReader bufferedReader) throws IOException {
-        String pokerLine = null;
+        String pokerLine;
         while( (pokerLine = bufferedReader.readLine()) != null){
             int winner = playEach(pokerLine);
             if(winner == 1) p1Score++;
@@ -52,8 +52,8 @@ public class PokerGameController {
 
     /**
      * one line play(10 cards, first 5 cards for player 1, last 5 cards for player 2)
-     * @param pokerLine
-     * @return 1 - player1 won; 2 - player 2 won; 0 - tie
+     * @param pokerLine each line with 10 cards, 5 for each player;
+     * @return 1 - player1 won; 2 - player2 won; 0 - tie;
      */
     public static int playEach(String pokerLine){
         if(!PokerLineInputValidate.validate(pokerLine)) throw new RuntimeException("Input format incorrect.");
