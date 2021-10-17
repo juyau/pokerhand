@@ -8,6 +8,12 @@ import java.util.Comparator;
 import java.util.List;
 
 public class PokerManager {
+
+    /**
+     * get play result
+     * @param pokerLine
+     * @return the result of one line play, 1, 2, 0(tie)
+     */
     public static int getWinner(String pokerLine){
         String p1string = pokerLine.substring(0,14);
         String p2string = pokerLine.substring(15,29);

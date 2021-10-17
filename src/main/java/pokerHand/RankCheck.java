@@ -3,7 +3,9 @@ package pokerHand;
 import pokerHand.enums.RanksEnum;
 import pokerHand.model.Hand;
 
-
+/**
+ * each get method returns either null or a hand object with full info for comparison;
+ */
 public class RankCheck {
 
     // combine flush(6), straightFlush(9) and royalFlush(10);

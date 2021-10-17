@@ -10,6 +10,11 @@ public class PokerGameController {
     private static Integer p2Score = 0;
     private static Integer tieRounds = 0;
 
+    /**
+     * file play entrance
+     * @param bufferedReader
+     * @throws IOException
+     */
     public static void playAll(BufferedReader bufferedReader) throws IOException {
         String pokerLine = null;
         while( (pokerLine = bufferedReader.readLine()) != null){
@@ -21,6 +26,9 @@ public class PokerGameController {
         showResult();
     }
 
+    /**
+     * terminal play entrance
+     */
     public static void playTerminalInput(){
         Scanner input = new Scanner(System.in);
         System.out.println("Input 10 cards then hit enter (example 9C 9D 8D 7C 3C 2S KD TH 9H 8H)");
@@ -40,10 +48,13 @@ public class PokerGameController {
                 System.out.println("Two players tie, no one won!");
             }
         }
-
-//        input.close();
     }
 
+    /**
+     * one line play(10 cards, first 5 cards for player 1, last 5 cards for player 2)
+     * @param pokerLine
+     * @return 1 - player1 won; 2 - player 2 won; 0 - tie
+     */
     public static int playEach(String pokerLine){
         if(!PokerLineInputValidate.validate(pokerLine)) throw new RuntimeException("Input format incorrect.");
         return PokerManager.getWinner(pokerLine);
