@@ -34,5 +34,7 @@ $ cd target
 $ java -jar Pocker-hand-1.0-SNAPSHOT.jar 
 ```
 
+#### Simple structure illustration
 
+![image](https://user-images.githubusercontent.com/32782723/137615479-efc03c72-17f2-4758-8c35-00a801fef9a4.png)
 
