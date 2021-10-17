@@ -4,7 +4,7 @@
 
 #### Setup step:
 
-1. clone project;
+1. clone project and enter project folder;
 
 2. Instal
 
